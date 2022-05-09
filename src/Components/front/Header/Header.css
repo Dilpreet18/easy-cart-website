@@ -1,0 +1,108 @@
+.header{
+    position: sticky;
+    top:0;
+    z-index: 100;
+    min-height: 80px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    /* color: white; */
+    background-color: #191d20;
+    background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, red, purple);
+    
+    
+    
+}
+
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    padding-left: 40px;
+    
+    animation: myanimation 10s infinite;
+    /* animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+  
+
+}
+/*
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    } */
+    
+/* @keyframes myanimation {
+    0% {background-color: red;}
+    25%{background-color:rgb(195, 0, 255);}
+    50%{background-color:rgb(28, 230, 28);}
+    75%{background-color:rgb(42, 151, 165);}
+    100% {background-color: red;}
+  } */
+/* .logo:hover{
+    color: rgb(0, 225, 255);
+} */
+
+.search input{
+    height: 30px;
+    border-radius: 15px;
+    /* align-items: center; */
+    
+}
+
+
+.search-output{
+    background-color: white}
+    .search-output {
+        width: 100%;
+      border-right: none;
+        padding: 5px;
+        height: 20px;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+        color: #9dbfaf;
+      }
+      
+      
+
+.header-links ul li{
+    list-style: none;
+    display: inline;
+    font-size: 18px;
+}
+
+.header-links ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px 15px;
+    width: 300px;
+}
+.header-links ul li a:hover{
+    color: rgb(34, 28, 28);
+}
+
+.cart{
+    padding-right: 20px;
+    margin-right: 20px;
+}
+.cart-length{
+    margin:3px;
+    font-size: 14px;
+    font-weight: 700;
+    vertical-align: super;
+    color: white;
+} 
